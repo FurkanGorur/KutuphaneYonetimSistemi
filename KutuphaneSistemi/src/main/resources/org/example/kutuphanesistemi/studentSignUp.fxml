@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="371.0" prefWidth="333.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.studentSignUp">
+   <children>
+      <Label layoutX="59.0" layoutY="154.0" text="Ad:" />
+      <Label layoutX="42.0" layoutY="193.0" text="Soyad:" />
+      <Label layoutX="46.0" layoutY="229.0" text="E-posta:" />
+      <Label layoutX="54.0" layoutY="264.0" text="Şifre:" />
+      <Label layoutX="22.0" layoutY="119.0" text="Öğrenci No:" />
+      <TextField fx:id="ogrNo" layoutX="95.0" layoutY="115.0" />
+      <TextField fx:id="ogrAd" layoutX="95.0" layoutY="150.0" />
+      <TextField fx:id="ogrSoyad" layoutX="95.0" layoutY="189.0" />
+      <TextField fx:id="ogrEposta" layoutX="95.0" layoutY="225.0" />
+      <TextField fx:id="ogrSifre" layoutX="95.0" layoutY="260.0" />
+      <Label layoutX="26.0" layoutY="55.0" text="Öğrenci Kayıt Sayfası" textFill="#4a2d2d">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnKayit" layoutX="90.0" layoutY="302.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="46.0" prefWidth="149.0" text="Kayıt Ol" />
+      <Button fx:id="geri" layoutX="16.0" layoutY="14.0" mnemonicParsing="false" onAction="#gerigel" prefHeight="25.0" prefWidth="71.0" text="Geri" />
+   </children>
+</Pane>

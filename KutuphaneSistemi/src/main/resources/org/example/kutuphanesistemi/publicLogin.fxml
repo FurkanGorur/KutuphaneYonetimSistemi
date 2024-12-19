@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.publicLogin">
+   <Label layoutX="54.0" layoutY="40.0" text="Kütüphane Yönetim Sistemine Hoşgeldiniz">
+      <font>
+         <Font size="35.0" />
+      </font>
+   </Label>
+   <Button fx:id="btnperson" layoutX="133.0" layoutY="154.0" mnemonicParsing="false" onAction="#personLogin" prefHeight="154.0" prefWidth="173.0" text="Personel">
+      <font>
+         <Font size="30.0" />
+      </font>
+   </Button>
+   <Button fx:id="btnstudent" layoutX="418.0" layoutY="154.0" mnemonicParsing="false" onAction="#studentLogin" prefHeight="154.0" prefWidth="173.0" text="Öğrenci">
+      <font>
+         <Font size="30.0" />
+      </font>
+   </Button>
+</Pane>

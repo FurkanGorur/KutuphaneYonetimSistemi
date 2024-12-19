@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="654.0" prefWidth="938.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kutuphanesistemi.controller.announceController">
+   <children>
+      <Label layoutX="21.0" layoutY="58.0" prefHeight="40.0" prefWidth="245.0" text="Duyuru Ekranı">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lst" layoutX="21.0" layoutY="111.0" prefHeight="534.0" prefWidth="905.0" />
+      <Button fx:id="btn" layoutX="21.0" layoutY="14.0" mnemonicParsing="false" onAction="#geri" prefHeight="35.0" prefWidth="110.0" text="Geri " />
+   </children>
+</Pane>
