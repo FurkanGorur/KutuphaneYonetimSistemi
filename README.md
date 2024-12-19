@@ -3,18 +3,12 @@
 Kütüphane Yönetim Sistemi
 
 Bir okulun kütüphanesi için bir kütüphane sistemi oluşturuldu. Proje Java ile yazıldı. Arayüz javaFX ile yapılmıştır.
-
 Personel ve öğrenci olmak üzere iki kullanıcı türü vardır.
-
 Öğrenciler kütüphanedeki kitapları listeleyebilir, duyuruları görebilir ayrıca şu an elinde olan kitapları görebilir ve önceden aldığı kitapları listeleyebilir.
-
 Personeller ise kitapları listeleyebilir, kitap ekleyebilir ,kitap silebilir, kitap güncelleyebilir, kitap türü ekleyebilir. öğrenciye kitap ödünç verebilir veya kitabın iadesini alabilir.. Ayrıca ödünç verilmiş kitapların nerede olduğunu görebilir.
-
 Giriş sayfasında öğrenci üyelik oluşturup öğrenci sayfasına giriş yapabilir ancak personel üyelik oluşturamaz. Sadece sisteme giriş yapabilir.
-
-
-
 Sistemde Singleton, Abstract Factory, State, Observer tasarım desenleri kullanılmıştır.
+
 
 Singleton -> Veritabanı bağlantısında kullanılmıştır.
 
