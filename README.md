@@ -17,6 +17,7 @@ Observer -> Kitabın ödünç veya iade edilme durumunda kitabı alan öğrenciy
 Projede bir tane abstract sınıf kullanılmıştır. Kullanıcıların login işlemlerinde doğrulama işlemi için kullanılmıştır.
 
 
+
 Singleton sınıfı -> DBConnector
 Abstract Factory -> ItypeAdd,typeAddModel, ItypeAddFactory, typeAddFactory, typeFactory
 State -> IbookLendState, Lend, LendReturn,
